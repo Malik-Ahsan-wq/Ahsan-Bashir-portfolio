@@ -19,15 +19,15 @@ const Navbar = () => {
         <div className="absolute  top-0 right-0 z-10">
           <img
             className="hidden md:inline-block animate__animated animate__fadeInRight w-180"
-            src="src/assets/header.png"
-            alt=""
+            src="/header.png"
+            alt="header image"
           />
         </div>
 
         {/* Navbar Content */}
         <div className="w-full flex items-center justify-between z-10 p-4 md:px-10">
           <Link to="/">
-            <img className="w-24 h-7" src="src/assets/logo..png" alt="Logo" />
+            <img className="w-24 h-7" src="/logo..png" alt="Logo" />
           </Link>
           <ul className="flex items-center">
             {/* Desktop "Let's Talk" */}
