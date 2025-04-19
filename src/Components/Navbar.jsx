@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="absolute  top-0 right-0 z-10">
           <img
             className="hidden md:inline-block animate__animated animate__fadeInRight w-180"
-            src="public/header.png"
+            src="/header.png"
             alt="header image"
           />
         </div>
