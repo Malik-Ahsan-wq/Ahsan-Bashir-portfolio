@@ -125,7 +125,7 @@ const BlogDetail = () => {
           My Blog Post
         </h1>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-10">
+        <div className=" md:flex-row justify-center items-center gap-10">
           <div className="mt-10 md:mt-20 max-w-xs">
             <img className="w-full" src="public/blog1.png" alt="" />
             <span className="block mt-5 text-sm text-gray-500">
