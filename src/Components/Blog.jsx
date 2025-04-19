@@ -14,7 +14,7 @@ const Blog = () => {
         <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
           <img
             className="w-full rounded-lg"
-            src="public/blog1.png"
+            src="/blog1.png"
             alt="blog1"
           />
           <div className="mt-3 flex justify-between text-sm text-gray-500">
@@ -30,7 +30,7 @@ const Blog = () => {
         <div className="w-full sm:w-[45%] lg:w-[22%] mt-30">
           <img
             className="w-full rounded-lg"
-            src="public/blog2.png"
+            src="/blog2.png"
             alt="blog2"
           />
           <div className="mt-3 flex justify-between text-sm text-gray-500">
