@@ -19,7 +19,7 @@ const Recent = () => {
           {/* Project 1 */}
           <div className="max-w-md w-full">
             <img
-              src="public/project1.png"
+              src="/project1.png"
               alt="Project 1"
               className="w-full rounded-md"
             />
