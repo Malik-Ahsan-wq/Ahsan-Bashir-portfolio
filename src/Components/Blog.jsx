@@ -14,7 +14,7 @@ const Blog = () => {
         <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
           <img
             className="w-full rounded-lg"
-            src="src/assets/blog1.png"
+            src="public/blog1.png"
             alt="blog1"
           />
           <div className="mt-3 flex justify-between text-sm text-gray-500">
@@ -30,7 +30,7 @@ const Blog = () => {
         <div className="w-full sm:w-[45%] lg:w-[22%] mt-30">
           <img
             className="w-full rounded-lg"
-            src="src/assets/blog2.png"
+            src="public/blog2.png"
             alt="blog2"
           />
           <div className="mt-3 flex justify-between text-sm text-gray-500">
@@ -46,7 +46,7 @@ const Blog = () => {
         <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
           <img
             className="w-full rounded-lg"
-            src="src/assets/blog3.png"
+            src="public/blog3.png"
             alt="blog3"
           />
           <div className="mt-3 flex justify-between text-sm text-gray-500">
@@ -62,7 +62,7 @@ const Blog = () => {
         <div className="w-full sm:w-[45%] lg:w-[22%] mt-30">
           <img
             className="w-full rounded-lg"
-            src="src/assets/blog4.png"
+            src="public/blog4.png"
             alt="blog4"
           />
           <div className="mt-3 flex justify-between text-sm text-gray-500">
