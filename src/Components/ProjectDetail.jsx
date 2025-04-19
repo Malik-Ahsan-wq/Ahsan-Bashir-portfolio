@@ -111,9 +111,9 @@ const ProjectDetail = () => {
           </div>
 
           {/* Projects */}
-          <div className="flex flex-col md:flex-row justify-center items-center gap-10 mt-10">
+          <div className="flex flex-col  md:py-15 md:flex-row justify-center items-center gap-10 mt-10">
             {[1, 2].map((_, i) => (
-              <div key={i} className="max-w-md w-full">
+              <div key={i} className="">
                 <img
                   src={`/project${i === 0 ? "7" : "4 (1)"}.png`}
                   alt={`Project ${i + 1}`}
