@@ -11,7 +11,7 @@ const BlogSection = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           <div className="w-full max-w-sm flex flex-col items-start mt-10 md:mt-20">
-            <img className="w-full" src="public/blog1.png" alt="blog1" />
+            <img className="w-full" src="/blog1.png" alt="blog1" />
             <span className="mt-5 text-sm">
               <span className="mr-1">•</span>UI Design
             </span>
@@ -24,7 +24,7 @@ const BlogSection = () => {
           </div>
 
           <div className="w-full max-w-sm flex flex-col items-start mt-10 md:mt-20">
-            <img className="w-full" src="public/blog2.png" alt="blog2" />
+            <img className="w-full" src="/blog2.png" alt="blog2" />
             <span className="mt-5 text-sm">
               <span className="mr-1">•</span>UI Design
             </span>
@@ -37,7 +37,7 @@ const BlogSection = () => {
           </div>
 
           <div className="w-full max-w-sm flex flex-col items-start mt-10 md:mt-20">
-            <img className="w-full" src="public/blog3.png" alt="blog3" />
+            <img className="w-full" src="/blog3.png" alt="blog3" />
             <span className="mt-5 text-sm">
               <span className="mr-1">•</span>UI Design
             </span>
@@ -50,7 +50,7 @@ const BlogSection = () => {
           </div>
 
           <div className="w-full max-w-sm flex flex-col items-start mt-10 ">
-            <img className="w-full" src="public/blog4.png" alt="blog4" />
+            <img className="w-full" src="/blog4.png" alt="blog4" />
             <span className="mt-5 text-sm">
               <span className="mr-1">•</span>UI Design
             </span>
@@ -69,7 +69,7 @@ const BlogSection = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           <div className="w-full max-w-sm flex flex-col items-start mt-10 md:mt-30">
-            <img className="w-full" src="public/blog1.png" alt="blog1" />
+            <img className="w-full" src="/blog1.png" alt="blog1" />
             <span className="mt-5 text-sm">
               <span className="mr-1">•</span>UI Design
             </span>
@@ -82,7 +82,7 @@ const BlogSection = () => {
           </div>
 
           <div className="w-full max-w-sm flex flex-col items-start mt-10 md:mt-30">
-            <img className="w-full" src="public/blog2.png" alt="blog2" />
+            <img className="w-full" src="/blog2.png" alt="blog2" />
             <span className="mt-5 text-sm">
               <span className="mr-1">•</span>UI Design
             </span>
@@ -95,7 +95,7 @@ const BlogSection = () => {
           </div>
 
           <div className="w-full max-w-sm flex flex-col items-start mt-10 ">
-            <img className="w-full" src="public/blog3.png" alt="blog3" />
+            <img className="w-full" src="/blog3.png" alt="blog3" />
             <span className="mt-5 text-sm">
               <span className="mr-1">•</span>UI Design
             </span>
@@ -108,7 +108,7 @@ const BlogSection = () => {
           </div>
 
           <div className="w-full max-w-sm flex flex-col items-start mt-10 md:mt-30">
-            <img className="w-full" src="public/blog4.png" alt="blog4" />
+            <img className="w-full" src="/blog4.png" alt="blog4" />
             <span className="mt-5 text-sm">
               <span className="mr-1">•</span>UI Design
             </span>
