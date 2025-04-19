@@ -49,7 +49,7 @@ const ProjectDetail = () => {
         {/* Banner Image */}
         <div className="flex justify-center items-center mt-10">
           <img
-            src="public/banner.png"
+            src="/banner.png"
             alt="Banner"
             className="w-full max-w-5xl object-cover rounded-md"
           />
@@ -80,12 +80,12 @@ const ProjectDetail = () => {
 
           <div className="flex flex-col sm:flex-row gap-5 mt-10">
             <img
-              src="public/post1.png"
+              src="/post1.png"
               alt=""
               className="w-full sm:w-1/2 rounded-md"
             />
             <img
-              src="public/post2.png"
+              src="/post2.png"
               alt=""
               className="w-full sm:w-1/2 rounded-md"
             />
@@ -115,7 +115,7 @@ const ProjectDetail = () => {
             {[1, 2].map((_, i) => (
               <div key={i} className="max-w-md w-full">
                 <img
-                  src={`public/project${i === 0 ? "7" : "4 (1)"}.png`}
+                  src={`/project${i === 0 ? "7" : "4 (1)"}.png`}
                   alt={`Project ${i + 1}`}
                   className="w-full rounded-md"
                 />
