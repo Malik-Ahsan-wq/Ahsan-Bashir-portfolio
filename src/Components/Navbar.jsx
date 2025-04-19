@@ -165,7 +165,7 @@ const Navbar = () => {
         <div className="flex flex-col justify-center text-center md:text-left mt-10 md:mt-0 md:ml-20">
           <p className="text-4xl font-bold text-gray-700">Hello, I'm</p>
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold animate__animated animate__fadeInUp font-Syne">
-            <span className="text-orange-400">A</span>hsan Bashir.
+            <span className="text-orange-400">M</span>ark Henry.
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-700 font-bold mt-5">
