@@ -47,7 +47,7 @@ const Specialities = () => {
           Services
         </h3>
         <div className="max-w-5xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8 animate__animated animate__fadeInUp">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 animate__animated animate__fadeInUp">
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center md:text-left">
               My Specialities
             </h1>
