@@ -14,10 +14,12 @@ import Recent from "./Components/Recent";
 function App() {
   return (
     <>
-      <Menubar/>
       <Routes>
-  
         <Route path="/" element={<Home />} />
+      </Routes>
+
+      <Menubar />
+      <Routes>
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<ProjectSection />} />
