@@ -80,12 +80,12 @@ const ProjectDetail = () => {
 
           <div className="flex flex-col sm:flex-row gap-5 mt-10">
             <img
-              src="src/assets/post1.png"
+              src="public/post1.png"
               alt=""
               className="w-full sm:w-1/2 rounded-md"
             />
             <img
-              src="src/assets/post2.png"
+              src="public/post2.png"
               alt=""
               className="w-full sm:w-1/2 rounded-md"
             />
@@ -115,7 +115,7 @@ const ProjectDetail = () => {
             {[1, 2].map((_, i) => (
               <div key={i} className="max-w-md w-full">
                 <img
-                  src={`src/assets/project${i === 0 ? "7" : "4 (1)"}.png`}
+                  src={`public/project${i === 0 ? "7" : "4 (1)"}.png`}
                   alt={`Project ${i + 1}`}
                   className="w-full rounded-md"
                 />

@@ -65,7 +65,7 @@ const BlogSection = () => {
     
         <div className="flex justify-center  gap-10">
           <div className="mt-20">
-            <img className="w-70" src="src/assets/blog1.png" alt="" />
+            <img className="w-70" src="public/blog1.png" alt="" />
             <span>
               <span className="mt-5">.</span>UI Design
             </span>
