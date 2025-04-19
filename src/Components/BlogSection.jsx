@@ -64,8 +64,7 @@ const BlogSection = () => {
         </div>
       </div>
       <div className="py-20">
-        <h3 className="text-center text-3xl font-bold text-orange-400">Blog</h3>
-        <h1 className="text-center text-6xl font-bold mb-20">My Blog Post</h1>
+        
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           <div className="w-full max-w-sm flex flex-col items-start mt-10 md:mt-30">
