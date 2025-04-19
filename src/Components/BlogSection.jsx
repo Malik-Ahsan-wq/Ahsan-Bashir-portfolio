@@ -8,7 +8,7 @@ const BlogSection = () => {
       <div className="py-20">
         <h3 className="text-center text-3xl font-bold text-orange-400">Blog</h3>
         <h1 className="text-center text-6xl font-bold mb-30 ">My Blog Post</h1>
-        <div className="   md:flex justify-center  gap-10">
+        <div className="  w-full md:flex justify-center  gap-10">
           <div className=" w-full mt-10 md:mt-20">
             <img className="w-70" src="public/blog1.png" alt="" />
             <span>
