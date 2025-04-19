@@ -17,13 +17,13 @@ const ProjectSection = () => {
         <div>
           <img
             className=" mt-2 hover:shadow-2xl"
-            src="public/project1 (1).png"
+            src="/project1 (1).png"
             alt=""
           />
         </div>
         <img
           className=" mt-2 hover:shadow-2xl"
-          src="public/project1.png"
+          src="/project1.png"
           alt=""
         />
       </div>
@@ -31,18 +31,18 @@ const ProjectSection = () => {
       <div className=" mt-2 md:flex justify-center gap-5">
         <img
           className=" mt-2 hover:shadow-2xl"
-          src="public/project3.png"
+          src="/project3.png"
           alt=""
         />
 
         <img
           className=" mt-2 hover:shadow-2xl"
-          src="public/project4.png"
+          src="/project4.png"
           alt=""
         />
         <img
           className=" mt-2 hover:shadow-2xl"
-          src="public/project5.png"
+          src="/project5.png"
           alt=""
         />
       </div>
@@ -50,12 +50,12 @@ const ProjectSection = () => {
       <div className=" mt-2 md:flex justify-center gap-5 md:mt-5">
         <img
           className=" mt-2 hover:shadow-2xl"
-          src="public/project1.png"
+          src="/project1.png"
           alt=""
         />
         <img
           className=" mt-2 hover:shadow-2xl"
-          src="public/project7.png"
+          src="/project7.png"
           alt=""
         />
       </div>
