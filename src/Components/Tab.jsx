@@ -13,7 +13,7 @@ const contents =[
     "Awards",
 ];
   return (
-    <div className="mt-20 flex justify-center bg-[#f5f5f5] min-h-screen px-4">
+    <div className="mt-20 flex justify-center bg-[#f5f5f5] md:py-20 px-4">
       <div className="flex flex-col md:flex-row w-full max-w-7xl gap-10">
         {/* Left Column */}
         <div className="flex flex-col gap-5 justify-center items-center md:items-start w-full md:w-1/2">
@@ -27,7 +27,7 @@ const contents =[
               <button
                 onClick={() => setActiveTab(index)}
                 key={`tab_${index}`}
-                className={`w-full rounded-lg hover:bg-black border text-black py-4 font-bold md:py-4 md:border-none md:bg-white md:text-black md:font-bold md:text-start md:px-4 md:w-[80%] ${
+                className={`w-full rounded-lg hover:bg-black border text-black py-4 md:cursor-pointer font-bold md:py-4 md:border-none md:bg-white md:text-black md:font-bold md:text-start md:px-4 md:w-[70%] ${
                   activeTab === index ? "bg-black text-white" : ""
                 } hover:bg-black hover:text-white transition`}
               >
