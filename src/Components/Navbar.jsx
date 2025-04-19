@@ -139,14 +139,15 @@ const Navbar = () => {
               </a>
             </Link>
           </li>
-
           <li className="border-b-1 border-gray-500">
-            <a
-              href="#contact"
-              className="hover:text-orange-400 text-base md:text-lg"
-            >
-              Contact
-            </a>
+            <Link to="/contact">
+              <a
+                href="#contact"
+                className="hover:text-orange-400 text-base md:text-lg"
+              >
+                Contact
+              </a>
+            </Link>
           </li>
         </ul>
 
