@@ -68,7 +68,7 @@ const Navbar = () => {
           <img className="" src="/offcanvas-logo.png" alt="Logo" />
           <button
             onClick={handleToggle}
-            className="   cursor-pointer text-white px-3 md:px-4 md:py-4 md:bg-orange-400 md:text-white hover:bg-black hover:text-white  py-2 text-4xl"
+            className="   cursor-pointer text-white px-3 md:px-4 md:py-4 md:bg-orange-400 md:mr-2 md:text-white hover:bg-black hover:text-white  py-2 text-4xl"
           >
             <IoCloseOutline />
           </button>
