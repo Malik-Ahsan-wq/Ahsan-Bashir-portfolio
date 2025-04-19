@@ -22,7 +22,7 @@ const About = () => {
         "Awards",
     ];
   return (
-    <div className="mt-16 px-4 h-350 py-40 bg-[rgba(255,233,217,1)] md:h-200">
+    <div className=" px-4 h-350 py-40 bg-[rgba(255,233,217,1)] md:h-200">
       <div className="flex  flex-col-reverse md:flex-row  justify-center items-center gap-10 md:gap-20 animate__animated animate__fadeInLeftBig">
         <div className="text-center md:text-left -order-1">
           <p className="text-3xl md:text-4xl font-bold text-orange-400 text-start">
