@@ -196,7 +196,7 @@ const Navbar = () => {
               </span>
             </span>
 
-            <span className="flex gap-6 text-xl mt-4">
+            <span className="flex gap-6 text-3xl md:text-xl mt-4">
               <FaBehance className="hover:text-amber-600 duration-150 cursor-pointer" />
               <FaLinkedinIn className="hover:text-amber-600 duration-150 cursor-pointer" />
               <IoBasketballOutline className="hover:text-amber-600 duration-150 cursor-pointer" />
