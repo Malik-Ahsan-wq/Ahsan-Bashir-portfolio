@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
 
         {/* Navbar Content */}
-        <div className="w-full flex items-center justify-between z-10 p-2 md:px-10">
+        <div className="w-full flex p-3 items-center justify-between z-10 md:p-2 md:px-10">
           <Link to="/">
             <img className="w-24 h-7" src="/logo..png" alt="Logo" />
           </Link>
