@@ -65,7 +65,7 @@ const Navbar = () => {
         } z-20`}
       >
         <div className="flex justify-between items-center mb-6 border-b py-5">
-          <img className="" src="public/offcanvas-logo.png" alt="Logo" />
+          <img className="" src="/offcanvas-logo.png" alt="Logo" />
           <button
             onClick={handleToggle}
             className="   cursor-pointer text-white px-3 rounded border  py-2 text-4xl"
