@@ -117,7 +117,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex justify-center py-10">
-        <img className="rounded-2xl" src="src/assets/video.png" alt="" />
+        <img className="rounded-2xl" src="/video.png" alt="" />
       </div>
 
       <div className="flex flex-col md:py-20  md:flex-row w-full max-w-7xl gap-10">
