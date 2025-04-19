@@ -191,7 +191,7 @@ const Navbar = () => {
           <div className="flex flex-col md:flex-row gap-6 md:gap-20 mt-11  items-center animate__animated animate__fadeInUp">
             <span className="text-4xl font-bold mt-2 text-center md:text-left">
               1.2k <span className="text-yellow-600">+</span>
-              <span className="text-xl ml-2 text-gray-600">
+              <span className=" text-xl md:text-lg ml-2 text-gray-600">
                 Worldwide Client |
               </span>
             </span>
