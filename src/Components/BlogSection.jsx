@@ -11,10 +11,10 @@ const BlogSection = () => {
           My Blog Post
         </h1>
 
-        <div className="flex  justify-center gap-10 ">
+        <div className="flex flex-wrap justify-center gap-10">
           {/* Blog Post 1 */}
           <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
-            <img className="md:w-150 rounded-lg" src="/blog1.png" alt="blog1" />
+            <img className="w-full rounded-lg" src="/blog1.png" alt="blog1" />
             <div className="mt-3 flex justify-between text-sm text-gray-500">
               <span>UI Design</span>
               <span className="text-orange-400">03 May 2019</span>
@@ -25,8 +25,8 @@ const BlogSection = () => {
           </div>
 
           {/* Blog Post 2 */}
-          <div className="w-full sm:w-[45%] lg:w-[22%] mt-30">
-            <img className="md:w-150 rounded-lg" src="/blog2.png" alt="blog2" />
+          <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
+            <img className="w-full rounded-lg" src="/blog2.png" alt="blog2" />
             <div className="mt-3 flex justify-between text-sm text-gray-500">
               <span>UI Design</span>
               <span className="text-orange-400">03 May 2019</span>
@@ -38,11 +38,7 @@ const BlogSection = () => {
 
           {/* Blog Post 3 */}
           <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
-            <img
-              className="md:w-150  rounded-lg"
-              src="/blog3.png"
-              alt="blog3"
-            />
+            <img className="w-full rounded-lg" src="/blog3.png" alt="blog3" />
             <div className="mt-3 flex justify-between text-sm text-gray-500">
               <span>UI Design</span>
               <span className="text-orange-400">03 May 2019</span>
@@ -53,12 +49,8 @@ const BlogSection = () => {
           </div>
 
           {/* Blog Post 4 */}
-          <div className="w-full sm:w-[45%] lg:w-[22%] mt-30">
-            <img
-              className="md:w-150  rounded-lg"
-              src="/blog4.png"
-              alt="blog4"
-            />
+          <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
+            <img className="w-full rounded-lg" src="/blog4.png" alt="blog4" />
             <div className="mt-3 flex justify-between text-sm text-gray-500">
               <span>UI Design</span>
               <span className="text-orange-400">03 May 2019</span>
@@ -72,12 +64,11 @@ const BlogSection = () => {
 
       <div className="py-20 px-4">
       
-      
 
-        <div className="flex  justify-center gap-10 ">
+        <div className="flex flex-wrap justify-center gap-10">
           {/* Blog Post 1 */}
           <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
-            <img className="md:w-150 rounded-lg" src="/blog1.png" alt="blog1" />
+            <img className="w-full rounded-lg" src="/blog1.png" alt="blog1" />
             <div className="mt-3 flex justify-between text-sm text-gray-500">
               <span>UI Design</span>
               <span className="text-orange-400">03 May 2019</span>
@@ -88,8 +79,8 @@ const BlogSection = () => {
           </div>
 
           {/* Blog Post 2 */}
-          <div className="w-full sm:w-[45%] lg:w-[22%] mt-30">
-            <img className="md:w-150 rounded-lg" src="/blog2.png" alt="blog2" />
+          <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
+            <img className="w-full rounded-lg" src="/blog2.png" alt="blog2" />
             <div className="mt-3 flex justify-between text-sm text-gray-500">
               <span>UI Design</span>
               <span className="text-orange-400">03 May 2019</span>
@@ -101,11 +92,7 @@ const BlogSection = () => {
 
           {/* Blog Post 3 */}
           <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
-            <img
-              className="md:w-150  rounded-lg"
-              src="/blog3.png"
-              alt="blog3"
-            />
+            <img className="w-full rounded-lg" src="/blog3.png" alt="blog3" />
             <div className="mt-3 flex justify-between text-sm text-gray-500">
               <span>UI Design</span>
               <span className="text-orange-400">03 May 2019</span>
@@ -116,12 +103,8 @@ const BlogSection = () => {
           </div>
 
           {/* Blog Post 4 */}
-          <div className="w-full sm:w-[45%] lg:w-[22%] mt-30">
-            <img
-              className="md:w-150  rounded-lg"
-              src="/blog4.png"
-              alt="blog4"
-            />
+          <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
+            <img className="w-full rounded-lg" src="/blog4.png" alt="blog4" />
             <div className="mt-3 flex justify-between text-sm text-gray-500">
               <span>UI Design</span>
               <span className="text-orange-400">03 May 2019</span>
