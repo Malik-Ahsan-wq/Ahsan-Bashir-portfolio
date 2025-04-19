@@ -64,7 +64,7 @@ const Navbar = () => {
           isMenuOpen ? "translate-x-0" : " translate-x-full md:translate-x-full"
         } z-20`}
       >
-        <div className="flex justify-between items-center mb-6 border-b py-5">
+        <div className="flex justify-between items-center mb-6 border-b py-5 md:py-2">
           <img className="" src="/offcanvas-logo.png" alt="Logo" />
           <button
             onClick={handleToggle}
