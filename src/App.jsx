@@ -3,6 +3,7 @@ import React from "react"
 import { Route ,Routes } from "react-router-dom"
 import Contact from "./Components/Contact"
 import Home from "./Home"
+
 import About from "./Components/About";
 import ProjectSection from './Components/ProjectSection';
 import ProjectDetail from "./Components/ProjectDetail";
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Routes>
+  
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
@@ -20,7 +22,7 @@ function App() {
         <Route path="/detail" element={<ProjectDetail />} />
         <Route path="/blog" element={<BlogSection />} />
         <Route path="/blogDetail" element={<BlogDetail />} />
-        <Route path="/recent" element={<Recent/>}/>
+        <Route path="/recent" element={<Recent />} />
       </Routes>
     </>
   );

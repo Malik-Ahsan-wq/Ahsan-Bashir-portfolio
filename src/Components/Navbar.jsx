@@ -18,7 +18,7 @@ const Navbar = () => {
         {/* Background Image */}
         <div className="absolute  top-0 right-0 z-10">
           <img
-            className="hidden md:inline-block animate__animated animate__fadeInRight md:w-200"
+            className="hidden md:inline-block animate__animated animate__fadeInRight md:w-190"
             src="/header.png"
             alt="header image"
           />
