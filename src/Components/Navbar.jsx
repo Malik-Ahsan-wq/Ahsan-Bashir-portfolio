@@ -169,7 +169,7 @@ const Navbar = () => {
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-700 font-bold mt-5">
-            Products Designer <span className="font-bold text-black">|</span>{" "}
+            Products Designer |
             Based in Pakistan
           </p>
 
