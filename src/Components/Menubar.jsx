@@ -61,7 +61,7 @@ const Menubar = () => {
         {/* Mobile Menu / Sidebar */}
         <div
           className={`fixed top-0 right-0 h-full w-[300px] md:w-[440px] bg-black text-white px-4 py-6 transition-transform transform ${
-            isMenuOpen ? "translate-x-0" : "translate-x-full"
+            isMenuOpen ? "-translate-x-0" : "translate-x-full"
           } z-10`}
         >
           {/* Top Logo & Close */}
