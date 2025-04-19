@@ -48,7 +48,7 @@ const Experience = () => {
 
         <div className="w-full  md:w-1/2 max-w-md order-1">
           <img
-            src="src/assets/about1.png"
+            src="/about1.png"
             alt="about"
             className="w-full h-auto rounded-lg"
           />
