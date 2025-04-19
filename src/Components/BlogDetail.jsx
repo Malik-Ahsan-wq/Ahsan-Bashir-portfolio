@@ -19,12 +19,12 @@ const BlogDetail = () => {
         <div></div>
       </div>
       <div className="flex justify-center items-center pb-10">
-        <img src="public/banner2.png" alt="" />
+        <img src="/banner2.png" alt="" />
       </div>
       <div className="flex flex-col md:flex justify-start ml-5 md:ml-40 space-y-4 md:space-y-0">
         <div className="flex justify-center md:block">
           <img
-            src="public/user.png"
+            src="/user.png"
             alt="User"
             className="w-24 h-24 object-cover"
           />
