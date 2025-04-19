@@ -192,11 +192,11 @@ const Navbar = () => {
             <span className="text-4xl font-bold mt-2 text-center md:text-left">
               1.2k <span className="text-yellow-600">+</span>
               <span className=" text-xl md:text-lg ml-2 text-gray-600">
-                Worldwide Client |
+                Worldwide Client 
               </span>
             </span>
 
-            <span className="flex gap-6 text-3xl md:text-xl mt-4">
+            <span className="flex gap-6 text-3xl md:text-xl ">
               <FaBehance className="hover:text-amber-600 duration-150 cursor-pointer" />
               <FaLinkedinIn className="hover:text-amber-600 duration-150 cursor-pointer" />
               <IoBasketballOutline className="hover:text-amber-600 duration-150 cursor-pointer" />
