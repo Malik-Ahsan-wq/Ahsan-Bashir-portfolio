@@ -3,10 +3,11 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { FaBehance, FaLinkedinIn, FaGithub } from "react-icons/fa6";
 import { IoBasketballOutline, IoCloseOutline } from "react-icons/io5";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom"; // 🟢 Added here
 
 const Menubar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation(); // 🟢 Get current route
 
   const handleToggle = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -15,17 +16,19 @@ const Menubar = () => {
   return (
     <>
       <div>
-        <div className="absolute -top-20 right-0 z-10">
-          <img
-            className="hidden md:inline-block animate__animated animate__fadeInRight md:w-210"
-            src="/header.png"
-            alt="header image"
-          />
-        </div>
+        {/* Show header image only on the homepage */}
+        {location.pathname === "/" && (
+          <div className="absolute -top-20 right-0 z-10">
+            <img
+              className="hidden md:inline-block animate__animated animate__fadeInRight md:w-210"
+              src="/header.png"
+              alt="header image"
+            />
+          </div>
+        )}
 
         {/* Navbar Section */}
         <div className="relative w-full border-b overflow-visible">
-          {/* Navbar Content */}
           <div className="w-full flex p-3 items-center justify-between md:p-2 md:px-10 relative z-10">
             <Link to="/">
               <img className="w-24 h-7" src="/logo..png" alt="Logo" />
@@ -53,8 +56,6 @@ const Menubar = () => {
               </button>
             </ul>
           </div>
-
-          {/* Right-Side Image BELOW Navbar */}
         </div>
 
         {/* Mobile Menu / Sidebar */}
