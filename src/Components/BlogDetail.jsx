@@ -82,7 +82,7 @@ const BlogDetail = () => {
           </p>
           <div className="mb-5 md:flex gap-10 justify-center mt-20">
             <img className="px-5" src="/post3.png" alt="" />
-            <img className="mt-10 px-5" src="src/assets/post4.png" alt="" />
+            <img className="mt-10 px-5" src="/post4.png" alt="" />
           </div>
           <div>
             <h1 className="text-4xl font-bold m-10">1.Learning the basics</h1>
