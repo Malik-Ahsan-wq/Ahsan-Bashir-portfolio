@@ -19,12 +19,12 @@ const BlogDetail = () => {
         <div></div>
       </div>
       <div className="flex justify-center items-center pb-10">
-        <img src="src/assets/banner2.png" alt="" />
+        <img src="public/banner2.png" alt="" />
       </div>
       <div className="flex flex-col md:flex justify-start ml-5 md:ml-40 space-y-4 md:space-y-0">
         <div className="flex justify-center md:block">
           <img
-            src="src/assets/user.png"
+            src="public/user.png"
             alt="User"
             className="w-24 h-24 object-cover"
           />
@@ -81,7 +81,7 @@ const BlogDetail = () => {
             to be welcomed and every pain avoided.
           </p>
           <div className="mb-5 md:flex gap-10 justify-center mt-20">
-            <img className="px-5" src="src/assets/post3.png" alt="" />
+            <img className="px-5" src="public/post3.png" alt="" />
             <img className="mt-10 px-5" src="src/assets/post4.png" alt="" />
           </div>
           <div>
@@ -127,7 +127,7 @@ const BlogDetail = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           <div className="mt-10 md:mt-20 max-w-xs">
-            <img className="w-full" src="src/assets/blog1.png" alt="" />
+            <img className="w-full" src="public/blog1.png" alt="" />
             <span className="block mt-5 text-sm text-gray-500">
               • UI Design
             </span>
@@ -140,7 +140,7 @@ const BlogDetail = () => {
           </div>
 
           <div className="mt-10 md:mt-0 max-w-xs">
-            <img className="w-full" src="src/assets/blog2.png" alt="" />
+            <img className="w-full" src="public/blog2.png" alt="" />
             <span className="block mt-5 text-sm text-gray-500">
               • UI Design
             </span>
@@ -153,7 +153,7 @@ const BlogDetail = () => {
           </div>
 
           <div className="mt-10 md:mt-20 max-w-xs">
-            <img className="w-full" src="src/assets/blog3.png" alt="" />
+            <img className="w-full" src="public/blog3.png" alt="" />
             <span className="block mt-5 text-sm text-gray-500">
               • UI Design
             </span>
@@ -166,7 +166,7 @@ const BlogDetail = () => {
           </div>
 
           <div className="mt-10 md:mt-0 max-w-xs">
-            <img className="w-full" src="src/assets/blog4.png" alt="" />
+            <img className="w-full" src="public/blog4.png" alt="" />
             <span className="block mt-5 text-sm text-gray-500">
               • UI Design
             </span>

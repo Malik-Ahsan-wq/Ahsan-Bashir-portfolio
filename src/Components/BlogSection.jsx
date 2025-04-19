@@ -10,7 +10,7 @@ const BlogSection = () => {
         <h1 className="text-center text-6xl font-bold mb-30 ">My Blog Post</h1>
         <div className="md:flex justify-center  gap-10">
           <div className="mt-20">
-            <img className="w-70" src="src/assets/blog1.png" alt="" />
+            <img className="w-70" src="public/blog1.png" alt="" />
             <span>
               <span className="mt-5">.</span>UI Design
             </span>
@@ -22,7 +22,7 @@ const BlogSection = () => {
             </p>
           </div>
           <div>
-            <img className="w-70" src="src/assets/blog2.png" alt="" />
+            <img className="w-70" src="public/blog2.png" alt="" />
             <span>
               <span>.</span>UI Design
             </span>
@@ -35,7 +35,7 @@ const BlogSection = () => {
             </p>
           </div>
           <div className="mt-20">
-            <img className="w-70" src="src/assets/blog3.png" alt="" />
+            <img className="w-70" src="public/blog3.png" alt="" />
             <span>
               <span>.</span>UI Design
             </span>
@@ -47,7 +47,7 @@ const BlogSection = () => {
             </p>
           </div>
           <div>
-            <img className="w-70" src="src/assets/blog4.png" alt="" />
+            <img className="w-70" src="public/blog4.png" alt="" />
             <span>
               <span>.</span>UI Design
             </span>
@@ -77,7 +77,7 @@ const BlogSection = () => {
             </p>
           </div>
           <div>
-            <img className="w-70" src="src/assets/blog2.png" alt="" />
+            <img className="w-70" src="public/blog2.png" alt="" />
             <span>
               <span>.</span>UI Design
             </span>
@@ -90,7 +90,7 @@ const BlogSection = () => {
             </p>
           </div>
           <div className="mt-20">
-            <img className="w-70" src="src/assets/blog3.png" alt="" />
+            <img className="w-70" src="public/blog3.png" alt="" />
             <span>
               <span>.</span>UI Design
             </span>
@@ -102,7 +102,7 @@ const BlogSection = () => {
             </p>
           </div>
           <div>
-            <img className="w-70" src="src/assets/blog4.png" alt="" />
+            <img className="w-70" src="public/blog4.png" alt="" />
             <span>
               <span>.</span>UI Design
             </span>
