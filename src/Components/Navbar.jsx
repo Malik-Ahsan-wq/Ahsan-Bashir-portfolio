@@ -152,7 +152,7 @@ const Navbar = () => {
         </ul>
 
         {/* Social Icons */}
-        <span className="flex gap-6 text-3xl ">
+        <span className="flex gap-6 text-3xl mt-70 ">
           <FaBehance className="hover:text-amber-600 duration-150 cursor-pointer" />
           <FaLinkedinIn className="hover:text-amber-600 duration-150 cursor-pointer" />
           <IoBasketballOutline className="hover:text-amber-600 duration-150 cursor-pointer" />
