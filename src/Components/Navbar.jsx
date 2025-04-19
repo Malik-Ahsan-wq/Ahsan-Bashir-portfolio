@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-[rgba(255,233,217,1)]">
-      <div className="flex justify-center relative border-b-[20%]">
+      <div className="flex justify-center relative border-b-1">
         {/* Background Image */}
         <div className="absolute  top-0 right-0 z-10">
           <img
