@@ -9,12 +9,12 @@ import Comapnies from "./Components/Comapnies";
 import Blog from "./Components/Blog";
 import Pricing from "./Components/Pricing";
 import Footer from "./Components/Footer";
-import Menubar from './Components/Menubar';
+
 
 const Home = () => {
   return (
     <>
-    <Menubar/>
+  
       <Navbar />
       <Specialities />
       <Experience />

@@ -9,10 +9,12 @@ import ProjectSection from './Components/ProjectSection';
 import ProjectDetail from "./Components/ProjectDetail";
 import BlogSection from "./Components/BlogSection";
 import BlogDetail from "./Components/BlogDetail";
+import Menubar from "./Components/Menubar";
 import Recent from "./Components/Recent";
 function App() {
   return (
     <>
+      <Menubar/>
       <Routes>
   
         <Route path="/" element={<Home />} />
