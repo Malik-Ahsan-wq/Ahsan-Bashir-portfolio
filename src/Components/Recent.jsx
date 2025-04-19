@@ -17,7 +17,7 @@ const Recent = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           {/* Project 1 */}
-          <div className="max-w-md w-full">
+          <div className="">
             <img
               src="/project1.png"
               alt="Project 1"
@@ -40,7 +40,7 @@ const Recent = () => {
           </div>
 
           {/* Project 2 */}
-          <div className="max-w-md w-full">
+          <div className="">
             <img
               src="/project2.png"
               alt="Project 2"
@@ -65,7 +65,7 @@ const Recent = () => {
 
         <div className="flex justify-center pt-10 text-center">
           <Link to="/project">
-            <button className="flex items-center gap-3 text-center border px-6 py-3 rounded hover:bg-black hover:text-white text-xl font-bold duration-300 md:w-full md:flex md:justify-center md:items-center ">
+            <button className="flex items-center gap-3 text-center border px-6 py-3 rounded hover:bg-black hover:text-white text-xl font-bold duration-300 md:w-350 md:flex md:justify-center md:items-center ">
               View All Projects
               <MdOutlineArrowOutward className="text-2xl" />
             </button>
