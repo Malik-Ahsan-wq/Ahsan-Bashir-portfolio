@@ -49,7 +49,7 @@ const ProjectDetail = () => {
         {/* Banner Image */}
         <div className="flex justify-center items-center mt-10">
           <img
-            src="src/assets/banner.png"
+            src="public/banner.png"
             alt="Banner"
             className="w-full max-w-5xl object-cover rounded-md"
           />
