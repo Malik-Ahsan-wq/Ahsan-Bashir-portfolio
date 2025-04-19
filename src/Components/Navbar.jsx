@@ -50,7 +50,7 @@ const Navbar = () => {
             {/* Hamburger Menu - Mobile */}
             <button
               onClick={handleToggle}
-              className="ml-5 md: bg-black text-white p-3 md:px-6 md:py-6 text-2xl rounded cursor-pointer"
+              className="ml-5 md: bg-black text-white p-3 md:px-6 md:py-6 text-2xl  cursor-pointer"
             >
               <HiMenuAlt4 />
             </button>
