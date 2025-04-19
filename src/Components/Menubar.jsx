@@ -15,6 +15,14 @@ const Menubar = () => {
   return (
     <>
       <div>
+        <div className="absolute -top-20 right-0 z-10">
+          <img
+            className="hidden md:inline-block animate__animated animate__fadeInRight md:w-210"
+            src="/header.png"
+            alt="header image"
+          />
+        </div>
+
         {/* Navbar Section */}
         <div className="relative w-full border-b overflow-visible">
           {/* Navbar Content */}
@@ -47,7 +55,6 @@ const Menubar = () => {
           </div>
 
           {/* Right-Side Image BELOW Navbar */}
-         
         </div>
 
         {/* Mobile Menu / Sidebar */}
