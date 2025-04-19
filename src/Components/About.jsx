@@ -48,7 +48,7 @@ const About = () => {
 
         <div className="w-full  md:w-1/2 max-w-md ">
           <img
-            src="src/assets/about2.png"
+            src="public/about2.png"
             alt="about"
             className="w-full h-auto rounded-lg"
           />
