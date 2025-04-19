@@ -61,7 +61,7 @@ const Menubar = () => {
             <img src="/offcanvas-logo.png" alt="Logo" />
             <button
               onClick={handleToggle}
-              className="text-white bg-orange-400 hover:bg-black hover:text-white p-3 text-4xl"
+              className="text-white cursor-pointer bg-orange-400 hover:bg-black hover:text-white p-3 text-4xl"
             >
               <IoCloseOutline />
             </button>
