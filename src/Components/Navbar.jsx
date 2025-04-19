@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-[rgba(255,233,217,1)]">
-      <div className="flex justify-center relative border-b-1">
+      <div className="flex justify-center relative border-b">
         {/* Background Image */}
         <div className="absolute  top-0 right-0 z-10">
           <img
@@ -68,7 +68,7 @@ const Navbar = () => {
           <img className="" src="/offcanvas-logo.png" alt="Logo" />
           <button
             onClick={handleToggle}
-            className="   cursor-pointer text-white px-3 md:bg-orange-400 md:text-white hover:bg-black hover:text-white  py-2 text-4xl"
+            className="   cursor-pointer text-white px-3 md:px-2 md:py-2 md:bg-orange-400 md:text-white hover:bg-black hover:text-white  py-2 text-4xl"
           >
             <IoCloseOutline />
           </button>
