@@ -18,14 +18,14 @@ const Navbar = () => {
         {/* Background Image */}
         <div className="absolute  top-0 right-0 z-10">
           <img
-            className="hidden md:inline-block animate__animated animate__fadeInRight md:w-180"
+            className="hidden md:inline-block animate__animated animate__fadeInRight md:w-200"
             src="/header.png"
             alt="header image"
           />
         </div>
 
         {/* Navbar Content */}
-        <div className="w-full flex p-3 items-center justify-between z-10 md:p-2 md:px-10">
+        <div className="w-full flex p-3 items-center justify-between md:w-full z-10 md:p-2 md:px-10">
           <Link to="/">
             <img className="w-24 h-7" src="/logo..png" alt="Logo" />
           </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
             {/* Hamburger Menu - Mobile */}
             <button
               onClick={handleToggle}
-              className="ml-5 md: bg-black text-white p-3 md:px-6 md:py-6 text-2xl  cursor-pointer"
+              className="ml-5 md: bg-black text-white p-3 md:px-6 md:py-6 text-2xl   cursor-pointer"
             >
               <HiMenuAlt4 />
             </button>
@@ -68,7 +68,7 @@ const Navbar = () => {
           <img className="" src="/offcanvas-logo.png" alt="Logo" />
           <button
             onClick={handleToggle}
-            className="   cursor-pointer text-white px-3 md:px-4 md:py-4 md:bg-orange-400 md:mr-2 md:text-white hover:bg-black hover:text-white  py-2 text-4xl"
+            className="   cursor-pointer text-white px-4 md:px-4 py-4 md:py-4 bg-orange-400  md:bg-orange-400 md:mr-2 md:duration-100 md:text-white hover:bg-black hover:text-white   text-4xl"
           >
             <IoCloseOutline />
           </button>
@@ -161,7 +161,7 @@ const Navbar = () => {
       </div>
 
       {/* Hero Content */}
-      <div className=" md:mr-200 flex justify-center items-center px-4 py-16 md:py-32 max-w-screen-xl  mx-auto">
+      <div className=" md:mr-200 flex justify-center items-center px-4 py-16 md:py-25 max-w-screen-xl  mx-auto">
         <div className="flex flex-col justify-center text-center md:text-left mt-10 md:mt-0 md:ml-20">
           <p className="text-4xl font-bold text-gray-700">Hello, I'm</p>
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold animate__animated animate__fadeInUp font-Syne">
@@ -169,8 +169,7 @@ const Navbar = () => {
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-700 font-bold mt-5">
-            Products Designer |
-            Based in Pakistan
+            Products Designer | Based in Pakistan
           </p>
 
           {/* Buttons */}
@@ -192,7 +191,7 @@ const Navbar = () => {
             <span className="text-4xl font-bold mt-2 text-center md:text-left">
               1.2k <span className="text-yellow-600">+</span>
               <span className=" text-xl md:text-lg ml-2 text-gray-600">
-                Worldwide Client 
+                Worldwide Client
               </span>
             </span>
 
