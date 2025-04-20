@@ -9,7 +9,7 @@ const Blog = () => {
         My Blog Post
       </h1>
 
-      <div className="flex  justify-center gap-10 ">
+      <div className="md:flex  justify-center gap-10 ">
         {/* Blog Post 1 */}
         <div className="w-full sm:w-[45%] lg:w-[22%] mt-10">
           <img className="md:w-150 rounded-lg" src="/blog1.png" alt="blog1" />

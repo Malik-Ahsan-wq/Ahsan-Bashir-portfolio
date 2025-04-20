@@ -15,7 +15,7 @@ const Menubar = () => {
 
   return (
     <>
-      <div>
+      <div className="bg-[rgba(255,233,217,1)]">
         {/* Show header image only on the homepage */}
         {location.pathname === "/" && (
           <div className="absolute -top-20 right-0 z-10">
@@ -29,7 +29,7 @@ const Menubar = () => {
 
         {/* Navbar Section */}
         <div className="relative w-full border-b overflow-visible">
-          <div className="w-full flex p-3 items-center justify-between md:p-2 md:px-10 relative z-10">
+          <div className="w-full  flex p-3 items-center justify-between md:p-2 md:px-10 relative z-10">
             <Link to="/">
               <img className="w-24 h-7" src="/logo..png" alt="Logo" />
             </Link>
@@ -60,16 +60,16 @@ const Menubar = () => {
 
         {/* Mobile Menu / Sidebar */}
         <div
-          className={`fixed top-0 right-0 h-full w-[300px] md:w-[440px] bg-black text-white px-4 py-6 transition-transform transform ${
-            isMenuOpen ? "-translate-x-0" : "translate-x-full"
-          } z-10`}
+          className={`fixed top-0 right-0 h-full w-full max-w-[700px] md:max-w-[440px] bg-black text-white px-4 py-6 transition-transform transform ${
+            isMenuOpen ? "translate-x-0" : "translate-x-full"
+          } z-50 overflow-y-auto`}
         >
           {/* Top Logo & Close */}
-          <div className="flex justify-between items-center mb-6 border-b py-4">
-            <img src="/offcanvas-logo.png" alt="Logo" />
+          <div className="flex gap-40 md:justify-between items-center mb-6 border-b py-4">
+            <img src="/offcanvas-logo.png" alt="Logo" className="w-28" />
             <button
               onClick={handleToggle}
-              className="text-white cursor-pointer bg-orange-400 hover:bg-black hover:text-white p-3 text-4xl"
+              className="text-white cursor-pointer bg-orange-400 hover:bg-black hover:text-white p-2 text-3xl"
             >
               <IoCloseOutline />
             </button>
@@ -78,44 +78,72 @@ const Menubar = () => {
           {/* Menu Links */}
           <ul className="space-y-4 text-lg font-bold text-start">
             <li>
-              <Link to="/" className="hover:text-orange-400">
+              <Link
+                to="/"
+                onClick={handleToggle}
+                className="hover:text-orange-400"
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-orange-400">
+              <Link
+                to="/about"
+                onClick={handleToggle}
+                className="hover:text-orange-400"
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link to="/project" className="hover:text-orange-400">
+              <Link
+                to="/project"
+                onClick={handleToggle}
+                className="hover:text-orange-400"
+              >
                 Projects
               </Link>
             </li>
             <li>
-              <Link to="/detail" className="hover:text-orange-400">
+              <Link
+                to="/detail"
+                onClick={handleToggle}
+                className="hover:text-orange-400"
+              >
                 Projects Detail
               </Link>
             </li>
             <li>
-              <Link to="/blog" className="hover:text-orange-400">
+              <Link
+                to="/blog"
+                onClick={handleToggle}
+                className="hover:text-orange-400"
+              >
                 Blog
               </Link>
             </li>
             <li>
-              <Link to="/blogDetail" className="hover:text-orange-400">
+              <Link
+                to="/blogDetail"
+                onClick={handleToggle}
+                className="hover:text-orange-400"
+              >
                 Blog Detail
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-orange-400">
+              <Link
+                to="/contact"
+                onClick={handleToggle}
+                className="hover:text-orange-400"
+              >
                 Contact
               </Link>
             </li>
           </ul>
 
           {/* Social Icons */}
-          <div className="flex gap-6 text-3xl mt-16">
+          <div className="flex gap-6 text-2xl mt-12">
             <FaBehance className="hover:text-amber-600 duration-150 cursor-pointer" />
             <FaLinkedinIn className="hover:text-amber-600 duration-150 cursor-pointer" />
             <IoBasketballOutline className="hover:text-amber-600 duration-150 cursor-pointer" />
