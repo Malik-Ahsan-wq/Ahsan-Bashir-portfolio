@@ -15,7 +15,7 @@ const Menubar = () => {
 
   return (
     <>
-      <div className="bg-[rgba(255,233,217,1)]">
+      <div className="sticky top-0  z-9999  bg-[rgba(255,233,217,1)]">
         {/* Show header image only on the homepage */}
         {location.pathname === "/" && (
           <div className="absolute -top-20 right-0 z-10">
