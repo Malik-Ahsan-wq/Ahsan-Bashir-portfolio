@@ -40,7 +40,7 @@ const Specialities = () => {
   ];
 
   return (
-    <div className="p-6 mt-20">
+    <div className=" md:max-w-8xl   p-6 mt-20">
       {/* Heading */}
       <div className="mb-12 px-4">
         <h3 className="text-2xl font-semibold text-orange-400 text-center mb-6">
@@ -61,13 +61,13 @@ const Specialities = () => {
       </div>
 
       {/* Services Grid and Contact Box */}
-      <div className="flex flex-col md:flex-row justify-between gap-1 animate__animated animate__fadeInRightBig">
+      <div className="flex flex-col md:flex-row justify-between  animate__animated animate__fadeInRightBig">
         {/* 3x2 Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap:0  md:gap-10 max-w-6xl">
           {services.map((item, index) => (
             <div
               key={index}
-              className="w-full md:w-[250px] px-6 py-7 rounded-xl cursor-pointer bg-gray-100 hover:bg-white shadow-md transition-colors duration-150 text-gray-800 relative"
+              className="w-full  mt-5 md:w-[250px] px-6 py-7 rounded-xl cursor-pointer bg-gray-100 hover:bg-white shadow-md transition-colors duration-150 text-gray-800 relative"
             >
               {/* Logo at the top */}
               <div className="mb-6 text-5xl bg-white p-3 rounded-full inline-block hover:bg-gray-300 transition-colors duration-300">
@@ -87,7 +87,7 @@ const Specialities = () => {
         </div>
 
         {/* Right Side - Contact Box */}
-        <div className="bg-black rounded w-full p-6 md:w-[450px] md:h-120 text-center shadow-lg self-start mt-8 md:mt-0 relative flex flex-col justify-between">
+        <div className="bg-black rounded w-full p-6 md:w-[450px] md:h-130  text-center shadow-lg self-start mt-8 md:mt-5 md:ml-20 relative flex flex-col justify-between">
           {/* Arrow Icon at the top-right */}
           <MdOutlineArrowOutward className="text-orange-400 md:hover:text-white cursor-pointer text-6xl absolute top-4 right-4" />
 

@@ -15,12 +15,12 @@ const Menubar = () => {
 
   return (
     <>
-      <div className="sticky top-0  z-9999  bg-[rgba(255,233,217,1)]">
+      <div className="  top-0 z-9999  bg-[rgba(255,233,217,1)]">
         {/* Show header image only on the homepage */}
         {location.pathname === "/" && (
           <div className="absolute -top-20 right-0 z-10">
             <img
-              className="hidden md:inline-block animate__animated animate__fadeInRight md:w-210"
+              className="hidden md:inline-block animate__animated animate__fadeInRight md:w-180"
               src="/header.png"
               alt="header image"
             />
@@ -28,7 +28,7 @@ const Menubar = () => {
         )}
 
         {/* Navbar Section */}
-        <div className="relative w-full border-b overflow-visible">
+        <div className="relative  w-full border-b overflow-visible">
           <div className="w-full  flex p-3 items-center justify-between md:p-2 md:px-10 relative z-10">
             <Link to="/">
               <img className="w-24 h-7" src="/logo..png" alt="Logo" />
@@ -65,7 +65,7 @@ const Menubar = () => {
           } z-50 overflow-y-auto`}
         >
           {/* Top Logo & Close */}
-          <div className="flex gap-40 md:justify-between items-center mb-6 border-b py-4">
+          <div className="flex gap-50 md:justify-between items-center mb-6 border-b py-4">
             <img src="/offcanvas-logo.png" alt="Logo" className="w-28" />
             <button
               onClick={handleToggle}

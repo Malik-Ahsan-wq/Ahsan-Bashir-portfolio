@@ -6,7 +6,7 @@ const Comapnies = () => {
     <div className="flex justify-center items-center px-4 sm:px-6">
       <div className="pb-10 pt-10 w-full max-w-7xl">
         <Marquee>
-          <div className="flex flex-wrap md:flex-nowrap gap-10 sm:gap-16 md:gap-20 border-b border-t border-gray-400 w-full justify-center items-center p-5">
+          <div className="flex flex-wrap md:flex-nowrap gap-10 sm:gap-16 md:gap-30 border-b  border-t border-gray-400 w-full justify-center items-center p-5">
             <img
               src="/logo1.svg"
               alt="logo1"
