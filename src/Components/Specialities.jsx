@@ -4,6 +4,8 @@ import { FaMobileAlt } from "react-icons/fa";
 import { CgDesignmodo } from "react-icons/cg";
 import { SiWebmoney, SiBrandfolder } from "react-icons/si";
 import { TbBrandAirtable } from "react-icons/tb";
+import { motion } from "framer-motion";
+import { fadeInUp, fadeInRight, staggerContainer, scaleIn } from "../utils/animations";
 
 const Specialities = () => {
   const services = [
@@ -42,32 +44,61 @@ const Specialities = () => {
   return (
     <div className=" md:max-w-8xl   p-6 mt-20">
       {/* Heading */}
-      <div className="mb-12 px-4">
-        <h3 className="text-2xl font-semibold text-orange-400 text-center mb-6">
+      <motion.div 
+        className="mb-12 px-4"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={staggerContainer}
+      >
+        <motion.h3 
+          className="text-2xl font-semibold text-orange-400 text-center mb-6"
+          variants={fadeInUp}
+        >
           Services
-        </h3>
+        </motion.h3>
         <div className="max-w-5xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 animate__animated animate__fadeInUp">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center md:text-left">
+          <motion.div 
+            className="flex flex-col md:flex-row items-center justify-center gap-8"
+            variants={fadeInUp}
+          >
+            <motion.h1 
+              className="text-3xl sm:text-4xl md:text-6xl font-bold text-center md:text-left"
+              variants={fadeInUp}
+            >
               My Specialities
-            </h1>
-            <p className="text-gray-700 max-w-xl text-center md:text-left">
+            </motion.h1>
+            <motion.p 
+              className="text-gray-700 max-w-xl text-center md:text-left"
+              variants={fadeInUp}
+            >
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
               consequuntur aperiam quis nihil voluptas animi, eos fuga magnam
               mollitia tenetur?
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Services Grid and Contact Box */}
-      <div className="flex flex-col md:flex-row justify-between  animate__animated animate__fadeInRightBig">
+      <motion.div 
+        className="flex flex-col md:flex-row justify-between"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={staggerContainer}
+      >
         {/* 3x2 Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap:0  md:gap-10 max-w-6xl">
+        <motion.div 
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap:0  md:gap-10 max-w-6xl"
+          variants={staggerContainer}
+        >
           {services.map((item, index) => (
-            <div
+            <motion.div
               key={index}
               className="w-full  mt-5 md:w-[250px] px-6 py-7 rounded-xl cursor-pointer bg-gray-100 hover:bg-white shadow-md transition-colors duration-150 text-gray-800 relative"
+              variants={scaleIn}
+              whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
             >
               {/* Logo at the top */}
               <div className="mb-6 text-5xl bg-white p-3 rounded-full inline-block hover:bg-gray-300 transition-colors duration-300">
@@ -82,12 +113,16 @@ const Specialities = () => {
 
               {/* Arrow positioned at the right bottom */}
               <MdOutlineArrowOutward className="text-orange-400 text-xl absolute bottom-4 right-4" />
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
         {/* Right Side - Contact Box */}
-        <div className="bg-black rounded w-full p-6 md:w-[450px] md:h-130  text-center shadow-lg self-start mt-8 md:mt-5 md:ml-20 relative flex flex-col justify-between">
+        <motion.div 
+          className="bg-black rounded w-full p-6 md:w-[450px] md:h-130  text-center shadow-lg self-start mt-8 md:mt-5 md:ml-20 relative flex flex-col justify-between"
+          variants={fadeInRight}
+          whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
+        >
           {/* Arrow Icon at the top-right */}
           <MdOutlineArrowOutward className="text-orange-400 md:hover:text-white cursor-pointer text-6xl absolute top-4 right-4" />
 
@@ -99,8 +134,8 @@ const Specialities = () => {
             </h1>
             <p className="text-gray-400">Feel free to reach out anytime!</p>
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 };

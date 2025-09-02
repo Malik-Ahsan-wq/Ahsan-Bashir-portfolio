@@ -1,12 +1,23 @@
 import React from "react";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { fadeInLeft, fadeInRight, fadeInUp, staggerContainer } from "../utils/animations";
 
 const Experience = () => {
   return (
     <div className="mt-16 px-4">
-      <div className="flex flex-col-reverse md:flex-row  justify-center items-center gap-10 md:gap-20 animate__animated animate__fadeInLeftBig">
-        <div className="text-center md:text-left ">
+      <motion.div 
+        className="flex flex-col-reverse md:flex-row  justify-center items-center gap-10 md:gap-20"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={staggerContainer}
+      >
+        <motion.div 
+          className="text-center md:text-left"
+          variants={fadeInLeft}
+        >
           <p className="text-3xl md:text-4xl font-bold text-orange-400">
             Hello, I'm
           </p>
@@ -44,16 +55,20 @@ const Experience = () => {
               <MdOutlineArrowOutward className="text-xl" />
             </button>
           </Link>
-        </div>
+        </motion.div>
 
-        <div className="w-full  md:w-1/2 max-w-md order-1">
-          <img
+        <motion.div 
+          className="w-full  md:w-1/2 max-w-md order-1"
+          variants={fadeInRight}
+        >
+          <motion.img
             src="/about1.png"
             alt="about"
             className="w-full h-auto rounded-lg"
+            whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
           />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 };

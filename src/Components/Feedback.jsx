@@ -3,6 +3,8 @@ import { PiQuotesFill } from "react-icons/pi";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { motion } from "framer-motion";
+import { fadeInUp, fadeInLeft, fadeInRight, staggerContainer } from "../utils/animations";
 
 // Feedback data
 const data = [
@@ -73,24 +75,39 @@ const settings = {
 
 
   return (
-    <div className="w-full px-4 py-16 md:px-8 lg:px-16 md:py-20">
+    <motion.div 
+      className="w-full px-4 py-16 md:px-8 lg:px-16 md:py-20"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      variants={staggerContainer}
+    >
       <div className="flex flex-col lg:flex-row items-start gap-10 max-w-7xl mx-auto">
         {/* Left Side - Heading */}
-        <div className="w-full lg:w-1/3 ">
+        <motion.div 
+          className="w-full lg:w-1/3"
+          variants={fadeInLeft}
+        >
           <h3 className="text-xl md:text-2xl text-orange-400 font-bold mb-2">
             Testimonials
           </h3>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold ">
             Client <span className="text-orange-400">F</span>eedback
           </h1>
-        </div>
+        </motion.div>
 
         {/* Right Side - Slider */}
-        <div className="w-full lg:w-2/3">
+        <motion.div 
+          className="w-full lg:w-2/3"
+          variants={fadeInRight}
+        >
           <Slider {...settings}>
             {data.map((d, index) => (
               <div key={index} className="">
-                <div className="bg-white  rounded-2xl p-6 md:p-8 max-w-9xl  space-y-4">
+                <motion.div 
+                  className="bg-white  rounded-2xl p-6 md:p-8 max-w-9xl  space-y-4"
+                  whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
+                >
                   <span className="text-5xl text-black-400">{d.logo}</span>
                   <p className="text-gray-900 md:text-lg md:font-bold ">
                     {d.feedback}
@@ -98,13 +115,13 @@ const settings = {
                   <span className="text-2xl font-extrabold text-black-400">
                     {d.name}
                   </span>
-                </div>
+                </motion.div>
               </div>
             ))}
           </Slider>
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
